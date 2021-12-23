@@ -129,7 +129,6 @@ def loop():
           sudo arp -v -f "$LFILE"
         8.sudo ash
         9.echo "/bin/sh <$(tty) >$(tty) 2>$(tty)" | sudo at now; tail -f /dev/null
-        10.
 
         
         """)
